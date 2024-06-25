@@ -1,0 +1,652 @@
+{
+    "config": {
+        "version": "1.0",
+        "isSupportAdv": true,
+        "advID": "1010",
+        "skyObj": [
+            {
+                "index": 20,
+                "list": [
+                    {
+                        "name": "bloom1",
+                        "pos": [
+                            -3,
+                            16,
+                            -15
+                        ],
+                        "sound": "hot_air_balloon"
+                    },
+                    {
+                        "name": "bloom2",
+                        "pos": [
+                            3,
+                            20,
+                            -10
+                        ],
+                        "sound": "bg_ambience1_street"
+                    }
+                ]
+            },
+            {
+                "index": 60,
+                "list": [
+                    {
+                        "name": "Helicopter",
+                        "pos": [
+                            0,
+                            11,
+                            0
+                        ],
+                        "sound": "propellerplane"
+                    }
+                ]
+            },
+            {
+                "index": 100,
+                "list": [
+                    {
+                        "name": "plane",
+                        "pos": [
+                            6,
+                            5,
+                            7
+                        ],
+                        "sound": "space_shuttle"
+                    }
+                ]
+            },
+            {
+                "index": 120,
+                "list": [
+                    {
+                        "name": "P_star_01",
+                        "pos": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "isFollowCamera": true,
+                        "isLive": true
+                    }
+                ]
+            },
+            {
+                "index": 200,
+                "list": [
+                    {
+                        "name": "planet0",
+                        "pos": [
+                            15,
+                            55,
+                            -85
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 210,
+                "list": [
+                    {
+                        "name": "P_star_02",
+                        "pos": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "isFollowCamera": true,
+                        "isLive": true
+                    }
+                ]
+            },
+            {
+                "index": 220,
+                "list": [
+                    {
+                        "name": "spaceMan",
+                        "pos": [
+                            -3,
+                            10,
+                            -10
+                        ],
+                        "sound": "bg_ambience3_space"
+                    }
+                ]
+            },
+            {
+                "index": 280,
+                "list": [
+                    {
+                        "name": "planet1",
+                        "pos": [
+                            -8,
+                            50,
+                            -78
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 300,
+                "list": [
+                    {
+                        "name": "satellite",
+                        "pos": [
+                            -6,
+                            15,
+                            -30
+                        ],
+                        "sound": "satellite_bleeping"
+                    }
+                ]
+            },
+            {
+                "index": 350,
+                "list": [
+                    {
+                        "name": "planet2",
+                        "pos": [
+                            13,
+                            83,
+                            -125
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 420,
+                "list": [
+                    {
+                        "name": "planet3",
+                        "pos": [
+                            10,
+                            120,
+                            -201
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 450,
+                "list": [
+                    {
+                        "name": "ufo",
+                        "pos": [
+                            0,
+                            5,
+                            -5
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 490,
+                "list": [
+                    {
+                        "name": "planet4",
+                        "pos": [
+                            18,
+                            91,
+                            -148
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 560,
+                "list": [
+                    {
+                        "name": "planet5",
+                        "pos": [
+                            22,
+                            161,
+                            -250
+                        ]
+                    }
+                ]
+            }
+        ],
+        "maxHp": 3,
+        "perFloorScore": 1000,
+        "continuteAwardRate": 2,
+        "continuteCountTime": 4,
+        "maxQuality": 5,
+        "qualityAddRate": 0.1,
+        "shareReliveMax": 3,
+        "reliveMax": 1,
+        "advReliveMax": 3,
+        "awardFloorNum":50,
+        "shopList": [
+            {
+                "index": 50,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 45000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 100,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 47000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 150,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 200,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 250,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 300,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 350,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 400,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 450,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 500,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 550,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 10000,
+                        "icon": "heart",
+                        "name": "生命值+1"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "magnetic",
+                        "name": "磁铁"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 10000,
+                        "icon": "shop",
+                        "name": "加10层"
+                    }
+                ]
+            },
+            {
+                "index": 600,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 650,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            },
+            {
+                "index": 700,
+                "prefabName": "shop",
+                "items": [
+                    {
+                        "type": 1,
+                        "num": 1,
+                        "price": 50000,
+                        "icon": "heart",
+                        "name": "生命值+1",
+                        "desc": "生命上限为3，满心不能购买"
+                    },
+                    {
+                        "type": 2,
+                        "num": 1,
+                        "price": 45000,
+                        "doubleRate": 20000,
+                        "icon": "rank",
+                        "name": "房子升级",
+                        "desc": "提升房子获得的金币数量"
+                    },
+                    {
+                        "type": 3,
+                        "num": 10,
+                        "price": 45000,
+                        "icon": "shop",
+                        "name": "加盖10层",
+                        "desc": "购买后马上增加10层楼房"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.49",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "c811e5f3-8191-4c78-bf68-ccf4ea835fd7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "skyBox"
+  }
+}

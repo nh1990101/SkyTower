@@ -1,0 +1,34 @@
+{
+    "res": [
+        {
+            "version": 1,
+            "resUrl": "",
+            "soundUrl": "http://127.0.0.1/sound/",
+            "iosSoundUrl": "http://127.0.0.1/iosSound/",
+            "shareTittles": [
+                "盖房子盖到太空了",
+                "盖它就完了",
+                "工地搬砖人",
+                "我盖了9999层房子"
+            ],
+            "isSupportAdv": true,
+            "isSupportShare": false
+        },
+        {
+            "version": 1,
+            "resUrl": "https://kongdahongproject.oss-cn-hangzhou.aliyuncs.com/tower/wx/",
+            "soundUrl": "https://kongdahongproject.oss-cn-hangzhou.aliyuncs.com/tower/sound/",
+            "iosSoundUrl": "https://kongdahongproject.oss-cn-hangzhou.aliyuncs.com/tower/iosSound/",
+            "lastResUrl": "https://kongdahongproject.oss-cn-hangzhou.aliyuncs.com/tower/wx/",
+            "isSupportAdv": false,
+            "isSupportShare": false,
+            "advID": "1",
+            "shareTittles": [
+                "盖房子盖到太空了",
+                "盖它就完了",
+                "工地搬砖人",
+                "我盖了9999层房子"
+            ]
+        }
+    ]
+}
