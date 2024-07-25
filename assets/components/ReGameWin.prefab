@@ -1873,7 +1873,7 @@
     },
     "component": "",
     "_componentId": "9a033JvXZFLXbvU/PeuvCR8",
-    "handler": "hideBg",
+    "handler": "closeWin",
     "customEventData": "false"
   },
   {
